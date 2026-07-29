@@ -8,14 +8,7 @@ hobby use.
 Maintained by EMF - [github.com/emf187](https://github.com/emf187). Issues
 and PRs welcome there.
 
-## Why Modal instead of Kaggle
 
-This addon originally targeted Kaggle, but Kaggle's dataset -> kernel ->
-blob-upload flow turned out to be fragile to automate (phone verification
-requirements, multi-step auth, opaque 401s). Modal's Python SDK is a much
-better fit for driving from inside an addon: one token, a single function
-call to run remotely, and file transfer built into the SDK - no separate
-"upload a dataset" step.
 
 ## One-time setup
 
