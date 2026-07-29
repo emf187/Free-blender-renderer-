@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.DS_Store
+blender_render_by_emf/lib/
